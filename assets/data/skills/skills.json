@@ -1,0 +1,11 @@
+[
+  {
+    "id": "fireball",
+    "nombre": "Bola de fuego",
+    "costo": 10,
+    "daño": 15,
+    "alcance": 5,
+    "animacion": "fireball_anim",
+    "sonido": "fireball_sfx"
+  }
+]

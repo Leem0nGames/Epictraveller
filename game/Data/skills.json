@@ -1,0 +1,29 @@
+[
+  {
+    "id": "fireball",
+    "nombre": "Mantra de Agni-Thor",
+    "costo": 10,
+    "daño": 15,
+    "alcance": 5,
+    "animacion": "fireball_anim",
+    "sonido": "fireball_sfx"
+  },
+  {
+    "id": "astra_thunder",
+    "nombre": "Astra de Mjöllnir-Indra",
+    "costo": 18,
+    "daño": 28,
+    "alcance": 6,
+    "animacion": "thunder_anim",
+    "sonido": "thunder_sfx"
+  },
+  {
+    "id": "soma_heal",
+    "nombre": "Amrita de Yggdrasil",
+    "costo": 12,
+    "daño": -35,
+    "alcance": 1,
+    "animacion": "heal_anim",
+    "sonido": "heal_sfx"
+  }
+]

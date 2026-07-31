@@ -1,0 +1,12 @@
+[
+  {
+    "id": "slime",
+    "nombre": "Slime",
+    "sprite": "slime.png",
+    "vida": 20,
+    "ataque": 5,
+    "defensa": 0,
+    "velocidad": 1,
+    "experiencia": 10
+  }
+]

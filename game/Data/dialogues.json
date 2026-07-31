@@ -1,0 +1,76 @@
+{
+  "royal_guard_talk": {
+    "speaker": "Guardián Kshatriya",
+    "lines": [
+      "¡Salud, joven Einherjar! Custodio la frontera de Midgard-Loka.",
+      "La sombra de la serpiente Vritra-Nidhogg ha corrupto a las criaturas del valle.",
+      "Asegúrate de empuñar una hoja rúnica antes de adentrarte en el bosque de Asgard-Samsara.",
+      "Al norte descansa un altar bendito... custodiado por el Prana de los dioses."
+    ],
+    "events": [
+      { "type": "TRIGGER_ALARM", "params": { "severity": "low" } }
+    ]
+  },
+  "friendly_slime": {
+    "speaker": "Limo de Prana",
+    "lines": [
+      "¡Boiing! ¡Hola, viajero de la Rueda del Karma!",
+      "No temas, la esencia de Prana en mí sigue siendo pura y pacífica.",
+      "Muchos de mis hermanos fueron corrompidos por el aliento tóxico de Vritra.",
+      "¡Toma este Elixir de Soma Sagrado! Te fortalecerá en la prueba del Karma."
+    ],
+    "events": [
+      { "type": "GIVE_ITEM", "params": { "item": "potion", "amount": 1 } }
+    ]
+  },
+  "old_man_intro": {
+    "speaker": "Sabio Rishis de las Nornas",
+    "lines": [
+      "Bienvenido a las tierras de Midgard-Loka, joven Einherjar.",
+      "Las Nornas han tejido tu destino. Yggdrasil marchita sus raíces y la rueda de Samsara tambalea.",
+      "Sintoniza tu Prana Rúnico para restaurar el Dharma en los Nueve Reinos."
+    ],
+    "events": [
+      { "type": "EXECUTE_SCRIPT", "params": { "scriptName": "reveal_objective" } }
+    ]
+  },
+  "chest_opened": {
+    "speaker": "Cofre del Soma",
+    "lines": [
+      "¡Has abierto el cofre reliquia de Asgard!",
+      "¡Encontraste: Relicario del Soma Sagrado!"
+    ]
+  },
+  "chest_empty": {
+    "speaker": "Cofre del Soma",
+    "lines": [
+      "El cofre sagrado ya ha entregado sus bendiciones."
+    ]
+  },
+  "save_point_talk": {
+    "speaker": "Cristal Pránico de Yggdrasil",
+    "lines": [
+      "El cristal vibra con el eco del mantra OM y las runas antiguas...",
+      "¡Tu Karma y destino han sido grabados en el tapiz de las Nornas!"
+    ]
+  },
+  "merchant_talk": {
+    "speaker": "Mercader del Soma",
+    "lines": [
+      "¡Salud, viajero de Bifrost! ¿Buscas reliquias para tu travesía?",
+      "Los siervos de Vritra han asaltado los convoyes del Amrita...",
+      "¡Pero toma este Elixir de Soma Sagrado gratis para reconfortar tu alma!",
+      "¡Que las Nornas guíen tus pasos, Eldor!"
+    ],
+    "events": [
+      { "type": "GIVE_ITEM", "params": { "item": "potion", "amount": 1 } }
+    ]
+  },
+  "village_sign": {
+    "speaker": "Estatua del Dharma",
+    "lines": [
+      "Bienvenido al Santuario de Midgard-Loka.",
+      "Que el Prana de Yggdrasil-Samsara bendiga a los Einherjar de corazón puro."
+    ]
+  }
+}

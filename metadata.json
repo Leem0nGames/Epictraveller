@@ -1,0 +1,6 @@
+{
+  "name": "Yggdrasil-Samsara: HD-2D RPG",
+  "description": "Un RPG táctico en HD-2D fusión de mitología Nórdica e Hindú. Explora Midgard-Loka, domina el Prana Rúnico y defiende la Rueda del Karma contra Vritra-Nidhogg.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

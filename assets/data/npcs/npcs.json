@@ -1,0 +1,10 @@
+[
+  {
+    "id": "guard",
+    "nombre": "Guardia Real",
+    "sprite": "guard.png",
+    "dialogo": "guard_default",
+    "posicionInicial": { "x": 10, "y": 0, "z": 5 },
+    "direccionInicial": "DOWN"
+  }
+]

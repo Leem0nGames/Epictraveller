@@ -1,0 +1,42 @@
+[
+  {
+    "id": "slime",
+    "nombre": "Limo de Vritra",
+    "sprite": "slime.png",
+    "vida": 20,
+    "ataque": 5,
+    "defensa": 0,
+    "velocidad": 1,
+    "experiencia": 10
+  },
+  {
+    "id": "fenrir_rakshasa",
+    "nombre": "Huargo Fenrir-Rakshasa",
+    "sprite": "wolf.png",
+    "vida": 45,
+    "ataque": 12,
+    "defensa": 3,
+    "velocidad": 3,
+    "experiencia": 25
+  },
+  {
+    "id": "asura_dvergr",
+    "nombre": "Guerrero Asura-Dvergr",
+    "sprite": "dwarf.png",
+    "vida": 80,
+    "ataque": 18,
+    "defensa": 8,
+    "velocidad": 2,
+    "experiencia": 50
+  },
+  {
+    "id": "vritra_avatar",
+    "nombre": "Avatar de Vritra-Nidhogg",
+    "sprite": "boss.png",
+    "vida": 250,
+    "ataque": 30,
+    "defensa": 15,
+    "velocidad": 4,
+    "experiencia": 200
+  }
+]

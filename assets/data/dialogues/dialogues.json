@@ -1,0 +1,76 @@
+{
+  "royal_guard_talk": {
+    "speaker": "Guardia Real",
+    "lines": [
+      "¡Saludos, joven viajero! Protejo las afueras de Eldoria.",
+      "Últimamente, los Limos del bosque se han vuelto sumamente agresivos.",
+      "Si tienes pensado explorar las ruinas, asegúrate de equipar una buena espada.",
+      "Hay un cofre dorado al norte de aquí... contiene un tesoro legendario."
+    ],
+    "events": [
+      { "type": "TRIGGER_ALARM", "params": { "severity": "low" } }
+    ]
+  },
+  "friendly_slime": {
+    "speaker": "Limo Amistoso",
+    "lines": [
+      "¡Boiing! ¡Hola humano!",
+      "No te asustes, no todos los limos queremos morderte.",
+      "Solo queremos rebotar libremente por las colinas verdes.",
+      "¡Toma esta poción curativa! Te servirá en tu viaje."
+    ],
+    "events": [
+      { "type": "GIVE_ITEM", "params": { "item": "potion", "amount": 1 } }
+    ]
+  },
+  "old_man_intro": {
+    "speaker": "Anciano Sabio",
+    "lines": [
+      "Bienvenido a las tierras de Eldoria, hijo.",
+      "Este valle solía estar lleno de paz, pero un poder oscuro ha despertado.",
+      "Busca los cristales sagrados para restaurar el equilibrio."
+    ],
+    "events": [
+      { "type": "EXECUTE_SCRIPT", "params": { "scriptName": "reveal_objective" } }
+    ]
+  },
+  "chest_opened": {
+    "speaker": "Cofre",
+    "lines": [
+      "¡Has abierto el cofre pesado!",
+      "¡Encontraste: Cáliz de Oro!"
+    ]
+  },
+  "chest_empty": {
+    "speaker": "Cofre",
+    "lines": [
+      "El cofre ya está vacío."
+    ]
+  },
+  "save_point_talk": {
+    "speaker": "Cristal de Luz",
+    "lines": [
+      "El cristal brilla con una fuerza mística ancestral...",
+      "¡Progreso guardado de forma segura en las memorias de Eldoria!"
+    ]
+  },
+  "merchant_talk": {
+    "speaker": "Mercader Ambulante",
+    "lines": [
+      "¡Hola viajero! ¿Buscas provisiones? Vendo las mejores espadas y pociones.",
+      "Por ahora mi tienda está casi vacía por los asaltos de los Limos...",
+      "¡Pero toma esta Poción de Vida gratis para ayudarte en tu viaje!",
+      "¡Buena suerte, Eldor!"
+    ],
+    "events": [
+      { "type": "GIVE_ITEM", "params": { "item": "potion", "amount": 1 } }
+    ]
+  },
+  "village_sign": {
+    "speaker": "Cartel",
+    "lines": [
+      "Bienvenido a la Villa de Eldoria.",
+      "La paz sea contigo, viajero."
+    ]
+  }
+}

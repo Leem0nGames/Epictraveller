@@ -1,0 +1,79 @@
+[
+  {
+    "id": "iron_sword",
+    "nombre": "Espada de hierro",
+    "descripcion": "Una espada básica pero fiable.",
+    "icono": "iron_sword.png",
+    "categoria": "weapon",
+    "rareza": "common",
+    "precio": 50,
+    "stackable": false,
+    "maxStack": 1
+  },
+  {
+    "id": "small_potion",
+    "nombre": "Poción pequeña",
+    "descripcion": "Recupera una pequeña cantidad de vida.",
+    "icono": "potion.png",
+    "categoria": "consumable",
+    "rareza": "common",
+    "precio": 20,
+    "stackable": true,
+    "maxStack": 99
+  },
+  {
+    "id": "gold_coins",
+    "nombre": "Monedas de oro",
+    "descripcion": "La moneda de cambio estándar del reino.",
+    "icono": "gold.png",
+    "categoria": "currency",
+    "rareza": "common",
+    "precio": 1,
+    "stackable": true,
+    "maxStack": 99999
+  },
+  {
+    "id": "ruby_ring",
+    "nombre": "Anillo de rubí",
+    "descripcion": "Un anillo precioso con gemas incrustadas.",
+    "icono": "ruby_ring.png",
+    "categoria": "accessory",
+    "rareza": "rare",
+    "precio": 500,
+    "stackable": false,
+    "maxStack": 1
+  },
+  {
+    "id": "crystal_shield",
+    "nombre": "Escudo de cristal",
+    "descripcion": "Un escudo brillante fabricado con cristales puros.",
+    "icono": "crystal_shield.png",
+    "categoria": "shield",
+    "rareza": "rare",
+    "precio": 250,
+    "stackable": false,
+    "maxStack": 1
+  },
+  {
+    "id": "dragon_scale",
+    "nombre": "Escama de dragón",
+    "descripcion": "Una escama extremadamente dura e impenetrable.",
+    "icono": "dragon_scale.png",
+    "categoria": "material",
+    "rareza": "epic",
+    "precio": 350,
+    "stackable": true,
+    "maxStack": 99
+  },
+  {
+    "id": "legendary_staff",
+    "nombre": "Báculo legendario",
+    "descripcion": "Un antiguo báculo que canaliza el poder de los astros.",
+    "icono": "legendary_staff.png",
+    "categoria": "weapon",
+    "rareza": "legendary",
+    "precio": 1200,
+    "stackable": false,
+    "maxStack": 1
+  }
+]

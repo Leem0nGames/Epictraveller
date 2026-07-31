@@ -1,0 +1,307 @@
+{
+  "sprites": [
+    {
+      "id": "hero_body",
+      "category": "personaje",
+      "name": "Player Sprite 003",
+      "url": "https://github.com/Leem0nStudio/assets-lab/blob/main/spr/sprite_003_.png",
+      "author": "Leem0nStudio",
+      "license": "Custom",
+      "repo": "https://github.com/Leem0nStudio/assets-lab",
+      "frameWidth": 115,
+      "frameHeight": 256,
+      "rows": 1,
+      "columns": 4,
+      "scale": {
+        "x": 1.15,
+        "y": 2.56
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.0
+      },
+      "animations": {
+        "idle": { "row": 0, "frames": 1, "loop": true },
+        "walk": { "row": 0, "frames": 1, "loop": true },
+        "attack": { "row": 0, "frames": 1, "loop": false },
+        "cast": { "row": 0, "frames": 1, "loop": false }
+      },
+      "directions": {
+        "SE": 0,
+        "E": 1,
+        "N": 2,
+        "NW": 3,
+        "SW": 0,
+        "W": 1,
+        "NE": 3,
+        "S": 0
+      },
+      "mirrorDirections": {
+        "SW": "SE",
+        "W": "E",
+        "NE": "NW"
+      }
+    },
+    {
+      "id": "knight_armor",
+      "category": "personaje",
+      "name": "LPC Knight Plate Mail",
+      "url": "github:sanderfrenken/universal-lpc-spritesheet-character-generator/master/spritesheets/torso/plate/chest.png",
+      "author": "LPC Community",
+      "license": "CC-BY-SA 3.0 / GPL 3.0",
+      "repo": "https://github.com/sanderfrenken/universal-lpc-spritesheet-character-generator",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "rows": 21,
+      "columns": 13,
+      "scale": {
+        "x": 1.5,
+        "y": 1.5
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.1
+      },
+      "animations": {
+        "spellcast": { "row": 0, "frames": 7, "loop": false },
+        "thrust": { "row": 4, "frames": 8, "loop": false },
+        "walk": { "row": 8, "frames": 9, "loop": true },
+        "slash": { "row": 12, "frames": 6, "loop": false },
+        "shoot": { "row": 16, "frames": 13, "loop": false },
+        "die": { "row": 20, "frames": 6, "loop": false }
+      },
+      "directions": {
+        "UP": 0,
+        "LEFT": 1,
+        "DOWN": 2,
+        "RIGHT": 3
+      }
+    },
+    {
+      "id": "slime_enemy",
+      "category": "enemigo",
+      "name": "LPC Slime Sprite",
+      "url": "github:HarrisonMcGuire/lpc_character_sheets/master/slime.png",
+      "author": "HarrisonMcGuire",
+      "license": "CC-BY-SA 3.0",
+      "repo": "https://github.com/HarrisonMcGuire/lpc_character_sheets",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "rows": 4,
+      "columns": 9,
+      "scale": {
+        "x": 1.2,
+        "y": 1.2
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.1
+      },
+      "animations": {
+        "walk": { "row": 0, "frames": 9, "loop": true },
+        "die": { "row": 3, "frames": 5, "loop": false }
+      },
+      "directions": {
+        "UP": 0,
+        "LEFT": 1,
+        "DOWN": 2,
+        "RIGHT": 3
+      }
+    },
+    {
+      "id": "castle_outer_tileset",
+      "category": "tile",
+      "name": "LPC Style Medieval Castle Outer Tileset",
+      "url": "github:makaimc/lpc-style-medieval-castle-outer-tileset/master/castle-outer.png",
+      "author": "makaimc & LPC Community",
+      "license": "CC-BY-SA 3.0 / GPL 3.0",
+      "repo": "https://github.com/makaimc/lpc-style-medieval-castle-outer-tileset",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "rows": 32,
+      "columns": 32,
+      "scale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animations": {
+        "tile_grass": { "row": 0, "frames": 1, "loop": false },
+        "tile_dirt": { "row": 4, "frames": 1, "loop": false },
+        "tile_path": { "row": 6, "frames": 1, "loop": false },
+        "tree_big": { "row": 12, "frames": 1, "loop": false },
+        "rock_mossy": { "row": 16, "frames": 1, "loop": false },
+        "chest_gold": { "row": 20, "frames": 1, "loop": false },
+        "sign_wooden": { "row": 22, "frames": 1, "loop": false }
+      },
+      "directions": {
+        "DEFAULT": 0
+      }
+    },
+    {
+      "id": "item_sword_bronze",
+      "category": "item",
+      "name": "Bronze Broadsword",
+      "url": "github:StendhalGame/stendhal/master/data/sprites/items/sword_bronze.png",
+      "author": "StendhalGame Contributors",
+      "license": "GPL v2 / CC-BY-SA 3.0",
+      "repo": "https://github.com/StendhalGame/stendhal",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "rows": 1,
+      "columns": 1,
+      "scale": {
+        "x": 0.8,
+        "y": 0.8
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animations": {
+        "static": { "row": 0, "frames": 1, "loop": false }
+      },
+      "directions": {
+        "DEFAULT": 0
+      }
+    },
+    {
+      "id": "item_potion_health",
+      "category": "item",
+      "name": "Health Potion",
+      "url": "github:StendhalGame/stendhal/master/data/sprites/items/potion_health.png",
+      "author": "StendhalGame Contributors",
+      "license": "GPL v2 / CC-BY-SA 3.0",
+      "repo": "https://github.com/StendhalGame/stendhal",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "rows": 1,
+      "columns": 1,
+      "scale": {
+        "x": 0.8,
+        "y": 0.8
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animations": {
+        "static": { "row": 0, "frames": 1, "loop": false }
+      },
+      "directions": {
+        "DEFAULT": 0
+      }
+    },
+    {
+      "id": "item_coin_gold",
+      "category": "item",
+      "name": "Gold Coin",
+      "url": "github:StendhalGame/stendhal/master/data/sprites/items/coin_gold.png",
+      "author": "StendhalGame Contributors",
+      "license": "GPL v2 / CC-BY-SA 3.0",
+      "repo": "https://github.com/StendhalGame/stendhal",
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "rows": 1,
+      "columns": 1,
+      "scale": {
+        "x": 0.6,
+        "y": 0.6
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animations": {
+        "static": { "row": 0, "frames": 1, "loop": false }
+      },
+      "directions": {
+        "DEFAULT": 0
+      }
+    },
+    {
+      "id": "item_key_silver",
+      "category": "item",
+      "name": "Silver Dungeon Key",
+      "url": "github:StendhalGame/stendhal/master/data/sprites/items/key_silver.png",
+      "author": "StendhalGame Contributors",
+      "license": "GPL v2 / CC-BY-SA 3.0",
+      "repo": "https://github.com/StendhalGame/stendhal",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "rows": 1,
+      "columns": 1,
+      "scale": {
+        "x": 0.8,
+        "y": 0.8
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animations": {
+        "static": { "row": 0, "frames": 1, "loop": false }
+      },
+      "directions": {
+        "DEFAULT": 0
+      }
+    },
+    {
+      "id": "ui_dialog_panel",
+      "category": "ui",
+      "name": "Kenney Blue Panel Graphic",
+      "url": "github:KenneyNL/Adobe-Animate-Extension/master/transparent/panel_blue.png",
+      "author": "Kenney NL",
+      "license": "CC0 1.0 Universal",
+      "repo": "https://github.com/KenneyNL/Adobe-Animate-Extension",
+      "frameWidth": 100,
+      "frameHeight": 100,
+      "rows": 1,
+      "columns": 1,
+      "scale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animations": {
+        "static": { "row": 0, "frames": 1, "loop": false }
+      },
+      "directions": {
+        "DEFAULT": 0
+      }
+    },
+    {
+      "id": "ui_health_bar",
+      "category": "ui",
+      "name": "Kenney Red Progress Bar Graphic",
+      "url": "github:KenneyNL/Adobe-Animate-Extension/master/transparent/bar_red.png",
+      "author": "Kenney NL",
+      "license": "CC0 1.0 Universal",
+      "repo": "https://github.com/KenneyNL/Adobe-Animate-Extension",
+      "frameWidth": 190,
+      "frameHeight": 49,
+      "rows": 1,
+      "columns": 1,
+      "scale": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "animations": {
+        "static": { "row": 0, "frames": 1, "loop": false }
+      },
+      "directions": {
+        "DEFAULT": 0
+      }
+    }
+  ]
+}

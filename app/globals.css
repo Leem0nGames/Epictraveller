@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Fantasy Core Custom Font Variables */
+  .font-cinzel {
+    font-family: var(--font-cinzel), 'Cinzel', serif;
+  }
+  .font-fantasy {
+    font-family: var(--font-fantasy), 'MedievalSharp', fantasy, serif;
+  }
+
+  /* Fantasy Core Metallic & Arcana Gradients */
+  .text-gold-gradient {
+    background: linear-gradient(135deg, #fef08a 0%, #f59e0b 50%, #b45309 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .text-silver-gradient {
+    background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 50%, #64748b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .text-arcana-gradient {
+    background: linear-gradient(135deg, #e9d5ff 0%, #a855f7 50%, #6b21a8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Fantasy Borders & Glows */
+  .border-gold-fantasy {
+    border-image: linear-gradient(to bottom right, #fef08a, #d97706, #78350f) 1;
+  }
+  .gold-glow {
+    box-shadow: 0 0 15px rgba(245, 158, 11, 0.25), inset 0 0 10px rgba(245, 158, 11, 0.1);
+  }
+  .gold-glow-lg {
+    box-shadow: 0 0 25px rgba(245, 158, 11, 0.4), 0 0 10px rgba(251, 191, 36, 0.2), inset 0 0 15px rgba(245, 158, 11, 0.15);
+  }
+  .arcana-glow {
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.3), inset 0 0 12px rgba(168, 85, 247, 0.15);
+  }
+  .fantasy-panel {
+    background: radial-gradient(circle at 50% 0%, rgba(20, 24, 38, 0.95), rgba(7, 9, 15, 0.98));
+    border: 1px solid rgba(217, 119, 6, 0.35);
+  }
+
+  /* Sharp Fantasy Damage Typography Utilities */
+  .damage-text-sharp {
+    font-family: var(--font-cinzel), 'Cinzel', 'MedievalSharp', serif;
+    text-shadow: 
+      -2px -2px 0 #000,  
+       2px -2px 0 #000,
+      -2px  2px 0 #000,
+       2px  2px 0 #000,
+       0 6px 16px rgba(0, 0, 0, 0.95);
+  }
+
+  .damage-text-critical {
+    font-family: var(--font-cinzel), 'Cinzel', 'MedievalSharp', serif;
+    text-shadow: 
+      -3px -3px 0 #451a03,  
+       3px -3px 0 #451a03,
+      -3px  3px 0 #451a03,
+       3px  3px 0 #451a03,
+       0 0 20px rgba(251, 191, 36, 0.9),
+       0 8px 20px rgba(0, 0, 0, 0.98);
+  }
+}
+
+/* Custom Scrollbar for Fantasy Logs */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(10, 12, 18, 0.9);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(180, 83, 9, 0.6);
+  border-radius: 3px;
+  border: 1px solid rgba(251, 191, 36, 0.3);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(245, 158, 11, 0.8);
+}

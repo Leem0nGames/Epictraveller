@@ -1,0 +1,11 @@
+export enum ItemCategory {
+  WEAPON = 'WEAPON',
+  ARMOR = 'ARMOR',
+  CONSUMABLE = 'CONSUMABLE',
+  MATERIAL = 'MATERIAL',
+  QUEST = 'QUEST',
+  CURRENCY = 'CURRENCY',
+  KEY_ITEM = 'KEY_ITEM',
+  ACCESSORY = 'ACCESSORY',
+  MISC = 'MISC',
+}

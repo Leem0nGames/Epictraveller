@@ -1,0 +1,79 @@
+[
+  {
+    "id": "iron_sword",
+    "nombre": "Espada Rúnica Kshatriya",
+    "descripcion": "Hoja sagrada grabada con runas de Odín y mantras de victoria de Indra.",
+    "icono": "iron_sword.png",
+    "categoria": "weapon",
+    "rareza": "common",
+    "precio": 50,
+    "stackable": false,
+    "maxStack": 1
+  },
+  {
+    "id": "small_potion",
+    "nombre": "Elixir de Soma Sagrado",
+    "descripcion": "Elixir divino destilado de las gotas de Yggdrasil que reconforta el alma y restaura la vida.",
+    "icono": "potion.png",
+    "categoria": "consumable",
+    "rareza": "common",
+    "precio": 20,
+    "stackable": true,
+    "maxStack": 99
+  },
+  {
+    "id": "gold_coins",
+    "nombre": "Monedas Rúnicas Karma",
+    "descripcion": "Divisa ancestral forjada por las Nornas para el comercio en Midgard-Loka.",
+    "icono": "gold.png",
+    "categoria": "currency",
+    "rareza": "common",
+    "precio": 1,
+    "stackable": true,
+    "maxStack": 99999
+  },
+  {
+    "id": "ruby_ring",
+    "nombre": "Anillo del Rayo de Indra",
+    "descripcion": "Reliquia que vibra con el poder místico de las tormentas celestiales de devaloka.",
+    "icono": "ruby_ring.png",
+    "categoria": "accessory",
+    "rareza": "rare",
+    "precio": 500,
+    "stackable": false,
+    "maxStack": 1
+  },
+  {
+    "id": "crystal_shield",
+    "nombre": "Escudo Pránico de Bifrost",
+    "descripcion": "Forjado con fragmentos cristalinos del puente de luz de Asgard-Samsara.",
+    "icono": "crystal_shield.png",
+    "categoria": "shield",
+    "rareza": "rare",
+    "precio": 250,
+    "stackable": false,
+    "maxStack": 1
+  },
+  {
+    "id": "dragon_scale",
+    "nombre": "Escama de Vritra-Nidhogg",
+    "descripcion": "Oscura y dura coraza desprendida del dragón serpentino del caos primaveral.",
+    "icono": "dragon_scale.png",
+    "categoria": "material",
+    "rareza": "epic",
+    "precio": 350,
+    "stackable": true,
+    "maxStack": 99
+  },
+  {
+    "id": "legendary_staff",
+    "nombre": "Báculo de Brahma-Yggdrasil",
+    "descripcion": "Antiguo báculo sagrado que canaliza la resonancia del mantra OM y las tres raíces del universo.",
+    "icono": "legendary_staff.png",
+    "categoria": "weapon",
+    "rareza": "legendary",
+    "precio": 1200,
+    "stackable": false,
+    "maxStack": 1
+  }
+]
